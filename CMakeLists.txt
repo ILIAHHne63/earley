@@ -7,7 +7,6 @@ add_link_options(-pedantic -Werror -Wextra -fsanitize=address -fsanitize=undefin
 
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
-#set(CMAKE_CXX_CLANG_TIDY clang-tidy -checks=-*,readability-*)
 add_executable(gtest main.cpp tests.cpp)
 enable_testing()
 
