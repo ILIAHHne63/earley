@@ -1,3 +1,3 @@
 # earley
 
-Checks whether a word belongs to the grammar
+Алгоритм проверки на принадлежность слова грамматики
